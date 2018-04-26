@@ -1,0 +1,22 @@
+{
+  "name": "PodTest1",
+  "version": "0.1.0",
+  "summary": "A short description of PodTest1.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fanfan19920219/PodTest1",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fanfan19920219": "zhangzhihua@taidu.com"
+  },
+  "source": {
+    "git": "https://github.com/fanfan19920219/PodTest1.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PodTest1/Classes/**/*"
+}

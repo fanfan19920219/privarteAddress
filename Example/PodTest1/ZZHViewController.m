@@ -7,6 +7,8 @@
 //
 
 #import "ZZHViewController.h"
+#import "PodTest1-Prefix.pch"
+#import "tools.h"
 
 @interface ZZHViewController ()
 
@@ -18,6 +20,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    tools *tool = [[tools alloc]init];
+    [tool printRandom];
+    
+    //-(void)printRandom;
 }
 
 - (void)didReceiveMemoryWarning
