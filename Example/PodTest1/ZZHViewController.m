@@ -22,6 +22,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     tools *tool = [[tools alloc]init];
     [tool printRandom];
+    NSLog(@"123");
     
     //-(void)printRandom;
 }
